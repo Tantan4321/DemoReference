@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
+        android:onClick="showToast"
         android:id="@+id/btn_toast"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -21,6 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:onClick="countUp"
         android:id="@+id/btn_count"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
